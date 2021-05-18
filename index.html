@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Diana Iveth Duran Velazquez</title>
+  <script src="archivo.js"></script>
+  <link rel="stylesheet" href="estilocalculadora.css">
+</head>
+<body bgcolor="#ffbaca">
+  <form id="Calcula" >
+   <input type="text" id="barra" value="0" readonly>
+   
+     <div>
+       <button type="button" onclick="mostrar(1)">1</button>
+       <button type="button" onclick="mostrar(2)">2</button>
+       <button type="button" onclick="mostrar(3)">3</button>
+       <button type="button" onclick="operacion('+')">+</button>
+     </div>
+     <div>
+       <button type="button" onclick="mostrar(4)">4</button>
+       <button type="button" onclick="mostrar(5)">5</button>
+       <button type="button" onclick="mostrar(6)">6</button>
+       <button type="button" onclick="operacion('-')">-</button>
+     </div>
+     <div>
+       <button type="button" onclick="mostrar(7)">7</button>
+        <button type="button" onclick="mostrar(8)">8</button>
+       <button type="button" onclick="mostrar(9)">9</button>
+       <button type="button" onclick="operacion('*')">*</button>
+     </div>
+     <div>
+       <button type="button" onclick="mostrar(0)">0</button>
+       <button type="button" onclick="limpio()">C</button>
+       <button type="button" onclick="expre()">=</button>
+       <button type="button" onclick="operacion('/')">/</button>
+     </div>
+  </form>
+</body>
+</html>
